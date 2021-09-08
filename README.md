@@ -5,7 +5,9 @@ To view slides, using `conda`:
     `conda create --name msa8010 python=3.8 --file requirements.txt`
     `conda activate`
 
-2. Run a Jupyter file in slide mode. For example, to show  _03-NumpyPandas.ipynb_ slides: `jupyter nbconvert 03-NumpyPandas.ipynb --to slides --post serve`
+1. Run a Jupyter file in slide mode. You have two options:
+    1. Use RISE package _(recommended)_
+    2. Use nbconvert. For example, to show  _03-NumpyPandas.ipynb_ slides: `jupyter nbconvert 03-NumpyPandas.ipynb --to slides --post serve`
 
 ## Modify
 You can modify this repo and send pull requests.
