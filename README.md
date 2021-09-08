@@ -1,7 +1,16 @@
 # MSA 8010: Data Programming
+## View Slides
+To view slides, using `conda`:
+1. Create a new environment (for example, _msa8010_), with `requirements.txt`:
+    `conda create --name msa8010 python=3.8 --file requirements.txt`
+    `conda activate`
 
-## Personal Access Token (PAT)
-You need to create PAT on github.com to push local changes into your GitHub repository. 
+2. Run a Jupyter file in slide mode. For example, to show  _03-NumpyPandas.ipynb_ slides: `jupyter nbconvert 03-NumpyPandas.ipynb --to slides --post serve`
+
+## Modify
+You can modify this repo and send pull requests.
+### Personal Access Token (PAT)
+You might need to create PAT on github.com to push local changes into your GitHub repository. 
 On github.com:
 1. Settings
 1. Developer Settings
